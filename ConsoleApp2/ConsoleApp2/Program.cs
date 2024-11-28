@@ -8,17 +8,17 @@ class Program
         // Öğretim Görevlisi ve Dersler
         OgretimGorevlisi ogretimGorevlisi1 = new OgretimGorevlisi { Name = "Dr. Kaan Çapanoğlu", Id = "OGR1234", Departman = "Bilgisayar Mühendisliği" };
         OgretimGorevlisi ogretimGorevlisi2 = new OgretimGorevlisi { Name = "Prof. Dr. Öykü Yarıcı", Id = "OGR5678", Departman = "Elektrik-Elektronik Mühendisliği" };
-        OgretimGorevlisi ogretimGorevlisi3 = new OgretimGorevlisi { Name = "Doç. Dr. Pelin Su Sabancı", Id = "OGR9101", Departman = "Makine Mühendisliği" };
-        OgretimGorevlisi ogretimGorevlisi4 = new OgretimGorevlisi { Name = "Dr. Gülay Sabancı", Id = "OGR1122", Departman = "İnşaat Mühendisliği" };
+        OgretimGorevlisi ogretimGorevlisi3 = new OgretimGorevlisi { Name = "Doç. Dr. Pelin Su Sabancı", Id = "OGR9101", Departman = "Yazılım Mühendisliği" };
+        OgretimGorevlisi ogretimGorevlisi4 = new OgretimGorevlisi { Name = "Dr. Gülay Sabancı", Id = "OGR1122", Departman = "Yapay Zeka Mühendisliği" };
 
         // Dersler
         Ders ders1 = new Ders("C# Programlama", 4, ogretimGorevlisi1);
-        Ders ders2 = new Ders("Veri Yapıları", 3, ogretimGorevlisi2);
-        Ders ders3 = new Ders("Algoritmalar", 3, ogretimGorevlisi3);
-        Ders ders4 = new Ders("Elektrik Devreleri", 4, ogretimGorevlisi2);
+        Ders ders2 = new Ders("Veri Yapıları Ve Algoritmalar", 3, ogretimGorevlisi2);
+        Ders ders3 = new Ders("İşletim Sistemleri", 3, ogretimGorevlisi3);
+        Ders ders4 = new Ders("Elektronik", 4, ogretimGorevlisi2);
         Ders ders5 = new Ders("Makine Öğrenmesi", 3, ogretimGorevlisi1);
-        Ders ders6 = new Ders("Yapay Zeka", 3, ogretimGorevlisi3);
-        Ders ders7 = new Ders("İnşaat Mühendisliği", 4, ogretimGorevlisi4);
+        Ders ders6 = new Ders("İnternet Programcılığı", 3, ogretimGorevlisi3);
+        Ders ders7 = new Ders("Nesneye Dayalı Programlama", 4, ogretimGorevlisi4);
 
         // Öğrenciler
         List<Ogrenci> ogrenciListesi = new List<Ogrenci>();
