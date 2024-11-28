@@ -6,10 +6,10 @@ class Program
     static void Main()
     {
         // Öğretim Görevlisi ve Dersler
-        OgretimGorevlisi ogretimGorevlisi1 = new OgretimGorevlisi { Name = "Dr. Ahmet Kaya", Id = "OGR1234", Departman = "Bilgisayar Mühendisliği" };
-        OgretimGorevlisi ogretimGorevlisi2 = new OgretimGorevlisi { Name = "Prof. Dr. Emine Aksoy", Id = "OGR5678", Departman = "Elektrik-Elektronik Mühendisliği" };
-        OgretimGorevlisi ogretimGorevlisi3 = new OgretimGorevlisi { Name = "Doç. Dr. Hakan Demir", Id = "OGR9101", Departman = "Makine Mühendisliği" };
-        OgretimGorevlisi ogretimGorevlisi4 = new OgretimGorevlisi { Name = "Dr. Zeynep Yılmaz", Id = "OGR1122", Departman = "İnşaat Mühendisliği" };
+        OgretimGorevlisi ogretimGorevlisi1 = new OgretimGorevlisi { Name = "Dr. Kaan Çapanoğlu", Id = "OGR1234", Departman = "Bilgisayar Mühendisliği" };
+        OgretimGorevlisi ogretimGorevlisi2 = new OgretimGorevlisi { Name = "Prof. Dr. Öykü Yarıcı", Id = "OGR5678", Departman = "Elektrik-Elektronik Mühendisliği" };
+        OgretimGorevlisi ogretimGorevlisi3 = new OgretimGorevlisi { Name = "Doç. Dr. Pelin Su Sabancı", Id = "OGR9101", Departman = "Makine Mühendisliği" };
+        OgretimGorevlisi ogretimGorevlisi4 = new OgretimGorevlisi { Name = "Dr. Gülay Sabancı", Id = "OGR1122", Departman = "İnşaat Mühendisliği" };
 
         // Dersler
         Ders ders1 = new Ders("C# Programlama", 4, ogretimGorevlisi1);
